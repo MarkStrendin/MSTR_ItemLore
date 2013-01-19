@@ -1,0 +1,22 @@
+name: MSTR_ItemLore
+main: ca.strendin.MSTR_ItemLore.MSTR_ItemLore
+version: 0.1
+authors:
+  - Mark Strendin
+description: Mob head silliness
+permissions:
+  mstr_itemlore.modify:
+   description: Able to set head data
+   default: op
+commands:
+  setitemlore:
+    aliases: []
+    description: Set the lore for the item you are holding
+    usage: |
+           /<command>
+  setitemname:
+    aliases: []
+    description: Set the name for the item you are holding
+    usage: |
+           /<command> 
+             
