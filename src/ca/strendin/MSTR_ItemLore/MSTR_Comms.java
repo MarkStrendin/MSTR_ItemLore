@@ -47,7 +47,7 @@ public class MSTR_Comms {
     }
     
     public static void sendConsole(String message) {
-        System.out.println("[MSTR_CompassTeleport] " + message);
+        System.out.println("[MSTR_ItemLore] " + message);
     }
     
     public static void logThis(String message) {
